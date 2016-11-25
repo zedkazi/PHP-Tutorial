@@ -3,22 +3,13 @@
 		//variable in class is called property(ies)
 		var $name;
 		
-		//properties with access modifiers
-		public $travels;
-		protected $travel_exp;
-		private $pics_url;
-		
-		
-		
-		/* NOT REQUIRED AS WE CALL SETTER IN INDEX.PHP
-		
-		Contsructor - Special built-in method called a 'constructor'. 
+		/*Contsructor - Special built-in method called a 'constructor'. 
 		//Allows you to initialize properties 
 		//is optional as automatically called whrn creating an object
-		However, creating a constructor will save you from calling setter method when object is created
+		However, creating a constructor will save you from calling setter method when object is created*/
 		function __construct($persons_name){
 			$this->name = $persons_name;
-		}*/
+		}
 		
 		//Function is class is called method
 		//after defining properties in class, we define Getter and Setter methods
@@ -35,11 +26,6 @@
 		function get_name(){
 			echo 'Hi, '.$this->name.'<br/>';
 			echo 'Hope you having a good time.';
-		}
-		
-		
-		private function get_pics_url(){
-			return $this->pinn_number.
 		}
 	}
 ?>
