@@ -1,0 +1,9 @@
+PHP 
+
+Server Side Scripting
+Returns only HTML and CSS to browser
+
+Scripting tag
+<?php // code here ?>
+
+Define Variable 
