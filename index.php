@@ -8,6 +8,11 @@
 		
 		//instantiation -class dont become object until this is done
 		<?php 
+			/*
+			REQUIRED ONLY WHEN CONSTRUCTOR IS DEFINED IN CLASS
+			Eliminates calling setter methods
+			$zaid = new person("Zaid Kazi");
+			$queen = new person("Zaid's Wifey");*/
 			$zaid = new person();
 			$queen = new person;
 			
